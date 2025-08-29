@@ -1,0 +1,53 @@
+# folders
+.git/
+.venv/
+venv/
+__pycache__/
+node_modules/
+dist/
+build/
+.out/
+.cache/
+static/
+media/
+storage/cache/
+storage/chatbots_files/
+storage/logs/
+notebooks/data/
+
+# binaries & big blobs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.pdf
+*.mp3
+*.mp4
+*.wav
+*.ogg
+*.zip
+*.tar
+*.tar.gz
+*.sqlite3
+
+# secrets (never upload)
+.env
+.env.*
+secrets.*
+credentials.*
+*service_account*.json
+id_rsa
+id_ed25519
+storage-admin.json
+outbound-trunk.json
+
+# noise
+*.lock
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+*.min.js
+*.min.css
+*.log
